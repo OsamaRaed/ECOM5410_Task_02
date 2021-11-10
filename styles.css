@@ -1,11 +1,12 @@
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  margin-right: 20%;
+  margin-left: 20%;
   overflow: hidden;
   background-color: #2f3640;
   border-radius: 30px;
-
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 li {
@@ -30,20 +31,24 @@ li a:hover:not(.active) {
   color: #2f3640;
   transition: 0.4s;
 }
+body {
+  margin: 0%;
+}
 
 #a1 {
   /* border: 2px solid black; */
-  padding: 25px;
+  padding: 30px;
+  width: auto;
+  height: 100%;
   background-image: url(./images/background_img.jfif);
-
   height: 100vh;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .searchBox {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   position: absolute;
   top: 50%;
   left: 17%;
@@ -82,4 +87,29 @@ li a:hover:not(.active) {
   line-height: 30px;
   width: 240px;
   padding: 0 6px;
+}
+
+#spacelist{
+  /* background-color: blue; */
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+.fadded-thing{
+  padding: 30px;
+  width: auto;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(230,233,243) , rgb(69,96,110));
+  /* height: 100vh; */
+}
+
+.song {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: rgb(69,96,110);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-image: linear-gradient(to right, rgb(230,233,243) , rgb(176,192,205));
+  te
 }
