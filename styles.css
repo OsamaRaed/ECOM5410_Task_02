@@ -138,3 +138,9 @@ body {
   height: 30px;
   /* padding-bottom: 30px; */
 }
+.cd-details{
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  color: #2f3640;
+}
