@@ -33,6 +33,7 @@ li a:hover:not(.active) {
 }
 body {
   margin: 0%;
+  /* height: 100vh; */
 }
 
 #a1 {
@@ -111,4 +112,29 @@ body {
   padding: 20px;
   margin: 10px;
   background-image: linear-gradient(to right, rgb(230,233,243) , rgb(176,192,205));
+  cursor: pointer;
+}
+
+.small-img{
+  height: 80px;
+  border-radius: 20px;
+  
+}
+
+.search-header{
+  color: #2f3640;
+}
+
+.test {
+  /* height: 20px; */
+  text-align: center;
+  /* border: none; */
+  /* background: none; */
+  outline: none;
+  font-size: 24px;
+  /* line-height: 30px; */
+  width: auto;
+  margin-left: 20px;
+  height: 30px;
+  /* padding-bottom: 30px; */
 }
